@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9334DDC52681A8A000CC1996 /* api test app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "api test app.entitlements"; sourceTree = "<group>"; };
 		93813134266F0BAB0095D339 /* api_test_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_test_appApp.swift; sourceTree = "<group>"; };
 		93813135266F0BAB0095D339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		93813136266F0BAB0095D339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		9381312E266F0BAA0095D339 = {
 			isa = PBXGroup;
 			children = (
+				9334DDC52681A8A000CC1996 /* api test app.entitlements */,
 				93813133266F0BAB0095D339 /* Shared */,
 				93813149266F0BAB0095D339 /* Tests iOS */,
 				93813153266F0BAB0095D339 /* Tests macOS */,
@@ -229,7 +231,7 @@
 				};
 			};
 			buildConfigurationList = 93813132266F0BAA0095D339 /* Build configuration list for PBXProject "api test app" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -386,6 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -439,6 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -512,6 +516,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "api test app.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -541,6 +547,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "api test app.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
