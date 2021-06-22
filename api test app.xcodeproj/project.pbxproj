@@ -15,6 +15,8 @@
 		93813159266F0BAB0095D339 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93813135266F0BAB0095D339 /* ContentView.swift */; };
 		9381315A266F0BAB0095D339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93813136266F0BAB0095D339 /* Assets.xcassets */; };
 		9381315B266F0BAB0095D339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93813136266F0BAB0095D339 /* Assets.xcassets */; };
+		9381316B266F0C0F0095D339 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381316A266F0C0F0095D339 /* Api.swift */; };
+		9381316C266F0C0F0095D339 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381316A266F0C0F0095D339 /* Api.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		93813134266F0BAB0095D339 /* api_test_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_test_appApp.swift; sourceTree = "<group>"; };
-		93813135266F0BAB0095D339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93813135266F0BAB0095D339 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		93813136266F0BAB0095D339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9381313B266F0BAB0095D339 /* api test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93813141266F0BAB0095D339 /* api test app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "api test app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,7 @@
 		9381314A266F0BAB0095D339 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		93813150266F0BAB0095D339 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93813154266F0BAB0095D339 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		9381316A266F0C0F0095D339 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 			children = (
 				93813134266F0BAB0095D339 /* api_test_appApp.swift */,
 				93813135266F0BAB0095D339 /* ContentView.swift */,
+				9381316A266F0C0F0095D339 /* Api.swift */,
 				93813136266F0BAB0095D339 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -283,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9381316B266F0C0F0095D339 /* Api.swift in Sources */,
 				93813158266F0BAB0095D339 /* ContentView.swift in Sources */,
 				93813156266F0BAB0095D339 /* api_test_appApp.swift in Sources */,
 			);
@@ -292,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9381316C266F0C0F0095D339 /* Api.swift in Sources */,
 				93813159266F0BAB0095D339 /* ContentView.swift in Sources */,
 				93813157266F0BAB0095D339 /* api_test_appApp.swift in Sources */,
 			);

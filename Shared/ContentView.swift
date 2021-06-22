@@ -8,10 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var recipes: [Recipe] = []
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(recipes) { recipe in
+            VStack(alignment: .leading){
+                Text(recipe.name).bold()
+                Text(recipe.author)
+            }
+            
+        }
+        .onAppear{
+            Api().fetchData { (recipes) in
+                self.recipes = recipes
+            }
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -19,3 +33,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
