@@ -15,6 +15,8 @@ struct Recipe: Codable {
     let date: String
     let slug: String
     let _id: String
+    let ingredients: Array<String>
+    let steps: Array<String>
 }
 
 extension Recipe : Identifiable {
